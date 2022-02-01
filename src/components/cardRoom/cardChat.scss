@@ -1,0 +1,88 @@
+.card-chat{
+    width:45%;
+    margin:20px;
+    height:240px;
+    background-color: rgb(64, 59, 70);
+    border-radius:20px;
+
+
+    .card-chat-header{
+        height:30%;
+    }
+
+    .card-chat-body{
+        height:40%;
+        width:100%;
+display: flex;
+
+.chat-p-profile{
+width:15%;
+color: rgb(226, 226, 226);
+display: flex;
+justify-content: center;
+flex-direction: column;
+align-items: center;
+        .chat-p-profile-img{
+            width:50px;
+            height:50px;
+            border-radius:100%;
+            overflow: hidden;
+        }
+
+    }
+
+
+
+
+
+    }
+    .card-chat-action{
+        text-align: center;
+        button{
+            border-radius:20px;
+            padding:3px !important;
+            width:50%;
+            background-color: rgb(226, 226, 226);
+            border: none;
+            outline: none;
+            cursor: pointer;
+            &:focus-within{
+                background-color: rgb(163, 136, 189);
+                color: rgb(226, 226, 226);
+            }
+        }
+    }
+}
+
+.od-icon{
+    cursor: pointer;
+    padding:0px 20px;
+    :hover{
+        color: white;
+    }
+}
+
+.card-chat-header{
+    width:100%;
+    padding:6px;
+    display: flex;
+    justify-content: space-between;
+    padding-left:30px;
+    text-transform: capitalize;
+    color: rgb(226, 226, 226);
+}
+
+.text-chat{
+    h6{
+        color: white;
+    }
+    p{
+        color: rgb(226, 226, 226);
+        font-style: italic;
+    }
+
+    >*{
+        margin:0px;
+        padding:0px;
+    }
+}

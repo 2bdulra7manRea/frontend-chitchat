@@ -1,0 +1,34 @@
+.home-page{
+    display: flex;
+    justify-content: center;
+}
+
+.chats-view{
+    padding:20px;
+    width:100%;
+    height:100%;
+    display: flex;
+    flex-flow:row wrap;
+}
+
+.start-cov-btn{
+    background-color: rebeccapurple;
+    color: whitesmoke;
+    padding:8px;
+    margin:20px;
+    cursor: pointer;
+    border-radius:20px;
+    border: none;
+    outline:oldlace;
+}
+
+.draw-sty{
+    width:100%;
+    height:100%;
+    background-color: red;
+}
+.home-header{
+    display: flex;
+    padding:20px;
+    justify-content: space-between;
+}

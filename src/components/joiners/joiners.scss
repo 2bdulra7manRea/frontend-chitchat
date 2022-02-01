@@ -1,0 +1,16 @@
+.joiner-img{
+width:40px;
+height:40px;
+overflow: hidden;
+border-radius:20px;
+margin:5px;
+}
+.box-content{
+    display: flex;
+}
+.joiner-card{
+    padding:10px;
+    display:flex;
+    color: rgb(216, 216, 216);
+    justify-content: space-between;
+}

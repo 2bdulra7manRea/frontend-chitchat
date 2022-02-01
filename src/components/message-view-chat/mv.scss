@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+}
+.mv-chat{
+    color: white;
+    display: flex;
+    padding:10px;
+    justify-content: space-between;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.mv-chat-det{
+    width:80%;
+   
+}
+
+.prof-box{
+ width:20%;   
+.prof-image{
+    height:50px;
+    width:50px;
+    overflow: hidden;
+    padding:5px;
+    img {
+        border-radius:10px;
+    }
+}
+}
+.mv-chat-header{
+    display: flex;
+    justify-content: space-between;
+    font-style: italic;
+}
+
+.mv-chat-msg{ 
+    padding:5px;
+    p{
+    background-color: rgb(12, 41, 68);
+    border-radius:10px;
+    box-sizing: border-box;
+    padding:5px 10px; 
+   display: inline-block;
+    border:2px solid rgb(17, 56, 93);
+    }
+}

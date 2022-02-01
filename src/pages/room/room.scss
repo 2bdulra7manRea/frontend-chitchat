@@ -1,0 +1,103 @@
+
+
+.user-speaker-window , .windows-speakers{
+    border-radius:20px;
+    overflow: hidden;
+    width:86%;
+    margin:30px;
+    height:400px;
+}
+
+
+.windows-speakers{
+    display: flex;
+    justify-content:start;
+    flex-flow: row wrap;
+}
+
+.speaker-window{
+border-radius:20px;
+overflow: hidden;
+width:250px;
+margin:10px;
+}
+
+.side-bar{
+    height:100vh;
+
+.chat-box{
+    height:70%;
+    border:1px solid black;
+}
+
+
+
+}
+.msg-box{
+    overflow-y:auto;
+    height:85%;
+
+}
+
+::-webkit-scrollbar {
+    width:15px;
+}
+
+.msg-box::-webkit-scrollbar-thumb{
+    background-color: rgb(50, 55, 104);
+    border-radius:20px;
+}
+
+.msg-box::-webkit-scrollbar-thumb:hover{
+    background-color: rgb(36, 40, 73);
+}
+
+.participants-box{
+    overflow-y:auto;
+    height:30%;
+}
+
+.participants-box::-webkit-scrollbar-thumb{
+    background-color: rgb(50, 55, 104);
+    border-radius:20px;   
+}
+
+.msg-action{
+    width:100%;
+    padding:20px 10px;
+    display: flex;
+    height:15%;
+    justify-content: space-between;
+background-color: rgba(73, 70, 255, 0.287);
+
+.text-msg-box{
+    width:76%;
+    textarea{
+        width:100%;
+        background-color: rgb(18, 30, 65);
+        border: none;
+        outline: none;
+        resize: none;
+        color: whitesmoke;
+        border-radius:10px;
+        padding:10px;
+    }
+}
+.btn-msg-box{
+    width:20%;
+    button{
+        border-radius:10px;
+        padding:10px 20px;
+        background-color: rgb(2, 91, 255);
+        color: white;
+        border: none;
+        outline: none;
+        &:hover{
+            background-color: rgb(42, 116, 255);
+        }
+    }
+}
+
+
+}
+

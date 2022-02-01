@@ -1,24 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
-
+import './App.scss';
+import HomePage from './pages/home/home'; 
+import {BrowserRouter as Router, Route, Routes} from "react-router-dom"
+import ChatRoom from './pages/room/room';
+import Login from './pages/login/login';
+import VideoPlayer from './components/video/video';
+import VideoTest from './components/video/videoTest';
 function App() {
   return (
+    <Router>
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <Routes>
+    <Route path="/" element={<HomePage></HomePage>} ></Route>
+    <Route path="/chat/:id" element={<ChatRoom></ChatRoom>}></Route>
+    <Route path="/video" element={<VideoTest></VideoTest>}></Route>
+    </Routes>
     </div>
+  </Router>
   );
 }
 

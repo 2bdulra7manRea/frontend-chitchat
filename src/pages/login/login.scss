@@ -1,0 +1,22 @@
+.image-sign{
+    width:40px;
+    height:40px;
+    border-radius:10px;
+    overflow: hidden;
+}
+.btn-sign-in, .btn-account{
+display: flex;
+justify-content: space-around;
+width:200px;
+color: white;
+background-color: rgb(3, 128, 211);
+border-radius:20px;
+padding:5px;
+border: none;
+&:hover{
+    background-color: rgb(11, 145, 235);
+    cursor: pointer;
+}
+}
+
+
