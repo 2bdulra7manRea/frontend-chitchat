@@ -16,35 +16,6 @@ navigator.mediaDevices.getUserMedia({
     }
 }).then((currentStream)=>{
 setStream(currentStream)
-
-let peer = new Peer({initiator:true,trickle:false,stream:stream})
-console.log(peer)
-peer.on("signal",(signal)=>{
-console.log('signal',signal)
-peer1.signal(signal)
-})
-
-peer.on("stream",(streamPeer)=>{
-    console.log(streamPeer)
-myVideo.current.srcObject=streamPeer; 
-})
-
-
-let peer1 = new Peer({initiator:false,trickle:false,stream:stream})
-
-peer1.on("signal",(signal)=>{
-console.log('signal',signal)
-peer.signal(signal)
-})
-
-peer1.on("stream",(streamPeer)=>{
-    console.log(streamPeer)
-userVideo.current.srcObject=streamPeer; 
-})
-
-
-
-
 }).catch((reason)=>{
 })
 },[])

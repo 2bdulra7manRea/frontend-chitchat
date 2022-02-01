@@ -12,7 +12,6 @@ function App() {
     <Routes>
     <Route path="/" element={<HomePage></HomePage>} ></Route>
     <Route path="/chat/:id" element={<ChatRoom></ChatRoom>}></Route>
-    <Route path="/video" element={<VideoTest></VideoTest>}></Route>
     </Routes>
     </div>
   </Router>
