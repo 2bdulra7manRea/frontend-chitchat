@@ -61,9 +61,6 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/m
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
-
-This section has moved here: https://teams.microsoft.com/l/meetup-join/19%3ameeting_NWJkYjYwZmYtNmVjYi00ODJlLWFkMmEtOTZjZjQ4NzkxMzRl%40thread.v2/0?context=%7b%22Tid%22%3a%2268283f3b-8487-4c86-adb3-a5228f18b893%22%2c%22Oid%22%3a%22d814edd1-cf7a-4b76-ad43-53d8f0ebb97c%22%7d
 
 ### `npm run build` fails to minify
 
